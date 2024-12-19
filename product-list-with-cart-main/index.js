@@ -5,7 +5,7 @@ let itemPrice = document.querySelector(".item-price");
 let itmCategory = document.querySelector("item-category");
 // imgs.innerHTML += `<h1>${menuItem.image.mobile}</h1>`;
 
-// Check note
+// Check note to know what to do next
 
 fetch('./data.json')
     .then(res => res.json())
